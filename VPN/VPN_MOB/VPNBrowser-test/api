@@ -1,0 +1,213 @@
+说明:所有的数据传输均使用AES加密传输.通信密钥为md5(token)
+
+==========================================================================================
+1.获取Token
+描述:Token是通讯过程中的密钥,由服务端产生.用于数据传输过程中,对数据加密处理时的密钥.
+通信密钥:"4ae3c5b5cf79fc09aba5f9a7c006f707"
+URL : http://xxx.xxx.xxx.xxx/token
+HttpHeader: hash=[md5[post]]
+
+iOS所需参数样本:
+{
+plat:"IOS",
+sysver:"9.02",
+factory:"apple",
+model:"iphone 6,6",
+mac:"00EF5487AA32",
+idfa:"A2347D34858B322F948A341957807",
+udid:"B2847D34838B322F448A341957809"
+}
+
+
+响应:
+{
+status:200,
+timestamp:"1485642398754",
+token:"B2847D34838B322F448A341957809"
+did:"F2847D49938B322F44C435395660A"
+}
+
+
+==========================================================================================
+2.获取主机列表
+描述:主机列表是VPN服务器列表,是VPN连接时所需的各参数获取入口.
+通信密钥:[md5(token)]
+URL : http://xxx.xxx.xxx.xxx/host/list
+HttpHeader: token=[token],hash=[md5[post]]
+
+iOS所需参数样本:
+{
+plat:"IOS",
+uid:"858B322F948A3419" ,  //用户ID
+did:"B2847D34838B322F448A341957809",
+timestamp :1358736475873
+}
+
+响应:
+{
+status:200,
+timestamp :1358736475873,
+hosts:[{
+        id:"D342A456465B4564564F345345",
+        type:"ipsec",
+        host:"120.223.32.12",
+        accounts:"vpnuser",
+        password:"abcd1234"
+        secretKey:"123456"
+    } ,{
+        id:"D342A456465B4564564F345345",
+        type:"ipsec",
+        host:"115.23.32.19",
+        accounts:"vpnuser",
+        password:"abcd1234"
+        secretKey:"123456"
+   }]
+}
+==========================================================================================
+
+3.提交购买信息
+描述:本接口用来向服务器提交购买回执资料,用以开通VIP的功能.
+通信密钥:[md5(token)]
+URL : http://xxx.xxx.xxx.xxx/buy
+HttpHeader: token=[token],hash=[md5[post]]
+
+iOS所需参数样本:
+{
+plat:"IOS",
+uid:"34858B322F948A34195",
+did:"B2847D34838B322F448A341957809",
+item :51003,                                 //购买的商品ID
+expireAt:1698374702948,                      //过期时间,需要客户端计算得出
+receiptData:"[receipt-data]"
+}
+
+响应:
+{
+status:200,
+}
+==========================================================================================
+4.查询VIP状态
+描述:该接口可用于查询VIP状态
+通信密钥:[md5(token)]
+URL : http://xxx.xxx.xxx.xxx/vip/status
+HttpHeader: token=[token],hash=[md5[post]]
+
+iOS所需参数样本:
+{
+plat:"IOS",
+uid:"858B322F948A3419" ,  //用户ID
+did:"B2847D34838B322F448A341957809",
+timestamp :1358736475873
+}
+
+响应:
+{
+status:200,
+vip:true,                                //表示该用户为VIP用户
+expire:1894756387367,                    //VIP有效期
+timestamp :1358736475873
+}
+
+响应[过多设备使用]:
+{
+status:500,
+message:"Too many devices bound.",                    //错误消息
+}
+
+==========================================================================================
+5.注册用户
+描述:该接口可用于注册用户
+通信密钥:[md5(token)]
+URL : http://xxx.xxx.xxx.xxx/user/register
+HttpHeader: token=[token],hash=[md5[post]]
+
+iOS所需参数样本:
+{
+account:"lamfire" ,  //用户ID
+password:"123456" ,  //用户ID
+did:"B2847D34838B322F448A341957809",
+}
+
+响应:
+{
+status:200,
+uid:"B4545A7678B322F448A341957809",
+}
+
+响应[过多设备使用]:
+{
+status:500,
+message:"Too many devices bound.",                    //错误消息
+}
+==========================================================================================
+6.注册用户
+描述:该接口可用于注册用户
+通信密钥:[md5(token)]
+URL : http://xxx.xxx.xxx.xxx/user/register
+HttpHeader: token=[token],hash=[md5[post]]
+
+iOS所需参数样本:
+{
+account:"lamfire" ,  //用户ID
+password:"123456" ,  //用户ID
+did:"B2847D34838B322F448A341957809",
+}
+
+响应:
+{
+status:200,
+uid:"B4545A7678B322F448A341957809",
+}
+
+==========================================================================================
+7.登录
+描述:该接口可用于注册用户登录
+通信密钥:[md5(token)]
+URL : http://xxx.xxx.xxx.xxx/user/login
+HttpHeader: token=[token],hash=[md5[post]]
+
+iOS所需参数样本:
+{
+account:"lamfire" ,  //用户ID
+password:"123456" ,  //用户ID
+did:"B2847D34838B322F448A341957809",
+}
+
+响应:
+{
+status:200,
+uid:"B4545A7678B322F448A341957809",
+}
+
+==========================================================================================
+8.修改密码
+描述:该接口可用于注册用户修改密码
+通信密钥:[md5(token)]
+URL : http://xxx.xxx.xxx.xxx/user/password
+HttpHeader: token=[token],hash=[md5[post]]
+
+iOS所需参数样本:
+{
+uid:"lamfire" ,  //用户ID
+password:"123456" ,  //用户密码
+newpassword:"12345678" ,  //用户新密码
+did:"B2847D34838B322F448A341957809",
+}
+
+响应:
+{
+status:200,
+}
+
+==========================================================================================
+9.日志
+描述:该接口可用于客户端日志上传
+通信密钥:无
+URL : http://v.mobck.com/api/log
+
+所需参数样本每条日志请用换行符分割(\r\n)GZIP压缩后上传:
+[ping] DID47D34838B322F448A341957809 120.132.111.22 121ms
+[ping] DID47D34838B322F448A341957809 61.234.44.55 483ms
+[url] DID47D34838B322F448A341957809 http://www.google.com 483ms
+响应:
+{"status":200,"timestamp":1464679379539}

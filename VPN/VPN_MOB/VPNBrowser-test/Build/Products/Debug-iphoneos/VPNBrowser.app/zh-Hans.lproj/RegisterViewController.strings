@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "U.S.A+1"; ObjectID = "2sg-hc-U9U"; */
+"2sg-hc-U9U.normalTitle" = "U.S.A+1";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "3Qt-1w-WA0"; */
+"3Qt-1w-WA0.normalTitle" = "提交";
+
+/* Class = "UIButton"; normalTitle = "Get Code"; ObjectID = "P0C-Gl-oEK"; */
+"P0C-Gl-oEK.normalTitle" = "发送验证码";
+
+/* Class = "UILabel"; text = "Region"; ObjectID = "g6E-AN-XyO"; */
+"g6E-AN-XyO.text" = "国家";
+
+/* Class = "UITextField"; placeholder = "Enter a 6-12 bit password"; ObjectID = "kfs-3s-DZm"; */
+"kfs-3s-DZm.placeholder" = "请输入6-12位密码";
+
+/* Class = "UILabel"; text = "Phone"; ObjectID = "qmI-Jp-oBV"; */
+"qmI-Jp-oBV.text" = "手机号";
+
+/* Class = "UILabel"; text = "Verification Code"; ObjectID = "rfQ-e7-3c7"; */
+"rfQ-e7-3c7.text" = "验证码";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "zc2-bN-zjk"; */
+"zc2-bN-zjk.text" = "密码";

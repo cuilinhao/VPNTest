@@ -1,0 +1,15 @@
+"dmpasscode_enter_new_code" = "输入新密码";
+"dmpasscode_set_code" = " 输入密码";
+"dmpasscode_enter_old_code" = "请输入旧密码";
+"dmpasscode_enter_code" = "请输入密码";
+
+"dmpasscode_enter_to_unlock" = "输入解锁密码";
+"dmpasscode_repeat" = "验证新密码";
+"dmpasscode_not_match" = "密码不匹配，请再试一次";
+"dmpasscode_okay" = "确定";
+"dmpasscode_n_left" = "还可以尝试%i次";
+"dmpasscode_touchid_reason" = "Authenticate to access locked feature.";
+"dmpasscode_set_pass" = "设置密码";
+"dmpasscode_modify_pass" = "修改密码";
+"dmpasscode_unlock_app" = "解锁应用";
+"dmpasscode_verify_error" = "不正确的密码";

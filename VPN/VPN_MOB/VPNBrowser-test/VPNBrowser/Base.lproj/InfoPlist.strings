@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  VPNBrowser
+
+  Created by fenghj on 16/1/26.
+  Copyright © 2016年 vimfung. All rights reserved.
+*/
+CFBundleDisplayName="CY Browser";
+NSCameraUsageDescription="CYBrowser wants to access your camera";
+NSPhotoLibraryUsageDescription="CYBrowser wants to access your photos";

@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "Buy VIP"; ObjectID = "6xG-0e-79D"; */
+"6xG-0e-79D.normalTitle" = "购买VIP";
+
+/* Class = "UILabel"; text = "Free User"; ObjectID = "Cui-9G-jwv"; */
+"Cui-9G-jwv.text" = "免费用户";
+
+/* Class = "UILabel"; text = "Click to login"; ObjectID = "L9e-kF-3k9"; */
+"L9e-kF-3k9.text" = "点击登录";
+
+/* Class = "UILabel"; text = "Share to friends"; ObjectID = "kn2-QS-z5P"; */
+"kn2-QS-z5P.text" = "分享给好友";
+
+/* Class = "UILabel"; text = "Has a problem or feedback?"; ObjectID = "vCE-eg-7rx"; */
+"vCE-eg-7rx.text" = "有疑问或反馈？";
+
+/* Class = "UIButton"; normalTitle = "Constact us"; ObjectID = "xI3-Ke-uYU"; */
+"xI3-Ke-uYU.normalTitle" = "联系我们";

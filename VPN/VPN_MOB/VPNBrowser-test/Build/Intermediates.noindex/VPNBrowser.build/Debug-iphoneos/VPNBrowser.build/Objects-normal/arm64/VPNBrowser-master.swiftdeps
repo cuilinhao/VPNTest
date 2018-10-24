@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "8fd6ac00957044b33764e55ef4a7d266"
+build_time: [1539762013, 808648000]
+inputs:
+  "/Users/cuilinhao/Desktop/VPNBrowser-test/VPNBrowser/Core/SSASideMenu.swift": [1535511864, 0]

@@ -1,0 +1,271 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/cuilinhao/Desktop/VPNBrowser-test/Build/Products/Debug-iphoneos/AVOSCloud",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AVACL.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/ACL/AVACL.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVAnalytics.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/Analytics/AVAnalytics.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVAnonymousUtils.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/User/AVAnonymousUtils.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVAvailability.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/AVAvailability.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVCaptcha.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/Captcha/AVCaptcha.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVCloud.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/CloudCode/AVCloud.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVCloudQueryResult.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/Query/AVCloudQueryResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVConstants.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/AVConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVDynamicObject.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/Utils/AVDynamicObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVFile.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/File/AVFile.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVFileQuery.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/File/AVFileQuery.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVGeoPoint.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/Geo/AVGeoPoint.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVInstallation.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/Push/AVInstallation.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVLogger.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/Utils/AVLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVOSCloud.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/AVOSCloud.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVObject+Subclass.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObject+Subclass.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVObject.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVPush.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/Push/AVPush.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVQuery.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/Query/AVQuery.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVRelation.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVRelation.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVRole.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/ACL/AVRole.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVSMS.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/SMS/AVSMS.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVSaveOption.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVSaveOption.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVSearchQuery.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/Search/AVSearchQuery.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVSearchSortBuilder.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/Search/AVSearchSortBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVStatus.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/Status/AVStatus.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVSubclassing.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVSubclassing.h"
+        },
+        {
+          'type': 'file',
+          'name': "AVUser.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/AVOSCloud/AVOS/AVOSCloud/User/AVUser.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/cuilinhao/Desktop/VPNBrowser-test/Build/Products/Debug-iphoneos/BCGenieEffect",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "UIView+Genie.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/BCGenieEffect/UIView+Genie.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/cuilinhao/Desktop/VPNBrowser-test/Build/Products/Debug-iphoneos/Flurry-iOS-SDK",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Flurry.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/Flurry-iOS-SDK/Flurry/Flurry.h"
+        },
+        {
+          'type': 'file',
+          'name': "FlurrySessionBuilder.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/Flurry-iOS-SDK/Flurry/FlurrySessionBuilder.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/cuilinhao/Desktop/VPNBrowser-test/Build/Products/Debug-iphoneos/MBProgressHUD",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MBProgressHUD.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/MBProgressHUD/MBProgressHUD.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/cuilinhao/Desktop/VPNBrowser-test/Build/Products/Debug-iphoneos/Masonry",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MASCompositeConstraint.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/Masonry/Masonry/MASCompositeConstraint.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASConstraint+Private.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/Masonry/Masonry/MASConstraint+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASConstraint.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/Masonry/Masonry/MASConstraint.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASConstraintMaker.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/Masonry/Masonry/MASConstraintMaker.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASLayoutConstraint.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/Masonry/Masonry/MASLayoutConstraint.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASUtilities.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/Masonry/Masonry/MASUtilities.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASViewAttribute.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/Masonry/Masonry/MASViewAttribute.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASViewConstraint.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/Masonry/Masonry/MASViewConstraint.h"
+        },
+        {
+          'type': 'file',
+          'name': "Masonry.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/Masonry/Masonry/Masonry.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSArray+MASAdditions.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/Masonry/Masonry/NSArray+MASAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSArray+MASShorthandAdditions.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/Masonry/Masonry/NSArray+MASShorthandAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSLayoutConstraint+MASDebugAdditions.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/Masonry/Masonry/NSLayoutConstraint+MASDebugAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "View+MASAdditions.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/Masonry/Masonry/View+MASAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "View+MASShorthandAdditions.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/Masonry/Masonry/View+MASShorthandAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "ViewController+MASAdditions.h",
+          'external-contents': "/Users/cuilinhao/Desktop/VPNBrowser-test/Pods/Masonry/Masonry/ViewController+MASAdditions.h"
+        }
+      ]
+    }
+  ]
+}

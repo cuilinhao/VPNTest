@@ -1,0 +1,155 @@
+/* 
+  Localizable.strings
+  VPNConnector
+
+  Created by fenghj on 15/12/21.
+  Copyright © 2015年 vimfung. All rights reserved.
+*/
+
+"PRODUCT_TITLE" = "CY BROWSER";
+"GO_BUTTON_TITLE" = "GO";
+"CONNECTING_BUTTON_TITLE" = "Connecting";
+"CONNECTED_BUTTON_TITLE" = "Connected";
+"SEARCH_LABEL" = "Enter the URL or search";
+"CANCEL_BUTTON_TITLE" = "Cancel";
+"OK_BUTTON_TITLE" = "Ok";
+"CLEAR_BUTTON_TITLE" = "Clear History";
+"CONFIRM_ALERT_TITLE" = "Confirm";
+"CLEAR_HISTORY_MESSAGE" = "Clear all hisotry?";
+"CLEAR_CACHES_MESSAGE" = "Clear all history and caches（%@）?";
+"HOME_TITLE" = "Empty";
+"VPN_SERVERS_TITLE" = "Delegate Servers";
+"VPN_ITEM_TITLE" = "Delegate";
+"ADD_FAVORITE_ITEM_TITLE" = "Add to Fav";
+"FAVORITES_ITEM_TITLE" = "Favorites";
+"HISTORY_LIST_ITEM_TITLE" = "History";
+"VIP_ITEM_TITLE" = "VIP";
+"SHARE_ITEM_TITLE" = "Share";
+"CLEAR_CACHE_ITEM_TITLE" = "Clear Cache";
+"SETTING_ITEM_TITLE" = "Setting";
+"SUCCESS_ALERT_TITLE" = "Success";
+"HAS_BEEN_ADD_TO_FAV_MESSAGE" = "Has been add to Favorites";
+"FAIL_ALERT_TITLE" = "Fail";
+"ADD_TO_FAV_FAIL_MESSAGE" = "Cannot add to Favorites";
+"KONWN_BUTTON_TITLE" = "I known";
+"MY_FAVORITES_TITLE" = "My Favorites";
+"HAS_BEEN_CLEAR_HISTORY_MESSAGE" = "Has been cleared history";
+"HAS_BEEN_CLEARED_CACHE_MESSAGE" = "Has been cleared caches";
+"ADD_BUTTON_TITLE" = "Add";
+"GUEST_TEXT" = "Guest";
+"SIGN_IN_TIPS_TEXT" = "Sync membership privileges after login";
+"SIGN_IN_BUTTON_TITLE" = "Login";
+"VIP_SERVICES_TEXT" = "VIP Services";
+"SERVICE_AGREEMENT_TEXT" = "Service agreement";
+"BUY_BUTTON_TITLE" = "Buy";
+"A_MONTH_PRICE_TEXT" = "%@ a month";
+"THREE_MONTH_PRICE_TEXT" = "%@ three month";
+"A_YEAR_PRICE_TEXT" = "%@ a year";
+"INPUT_URL_TEXT" = "Input the URL";
+"SHARE_TO_FRIEND_ITEM_TITLE" = "Share to friends";
+"CLICK_TO_SIGN_IN_MESSAGE" = "Click to login";
+"SIGN_IN_TITLE" = "Login";
+"WECHAT_BUTTON_TITLE" = "WeChat";
+"FACEBOOK_BUTTON_TITLE" = "Facebook";
+"REMOVE_PASSWORD_ITEM_TITLE" = "Turn Passcode Off";
+"MODIFY_PASSWORD_ITEM_TITLE" = "Change Passcode";
+"SET_TOUCH_ID_ITEM_TITLE" = "Set Touch ID";
+"LOGIN_INFO_ITEM_TITLE" = "Login Information";
+"REMIND_SETTING_ITEM_TITLE" = "Remind Setting";
+"REMIND_RING_ITEM_TITLE" = "Remind Ring";
+"MY_CHARTLET_ITEM_TITLE" = "My Chartlet";
+"PURCHASE_RECORDS_ITEM_TITLE" = "Purchase History";
+"LOGIN_FAIL_MESSAGE" = "Login Fail!";
+"LOGOUT_BUTTON_TITLE" = "Logout";
+"PLEASE_SELECT_TITLE" = "Select";
+"VIP_EXPIRED_DAYS_MESSAGE" = "VIP has %.0f days expired";
+"NORMAL_USER_MESSAGE" = "Free User";
+"RENEW_BUTTON_TITLE" = "Renew";
+"APPLY_BUTTON_TITLE" = "Buy VIP";
+"ADD_PASSWORD_ITEM_TITLE" = "Turn Passcode On";
+"PASSCODE_SECTION_TITLE" = "Passcode";
+"WHETHER_TO_BUY_MESSAGE" = "Whether to buy the VIP package?";
+"TIPS_ALERT_TITLE" = "Tips";
+"SIGNIN_AND_THEN_BUY_MESSAGE" = "Please Login and then buy";
+"HAS_NOT_A_QRCODE_MESSAGE" = "Picture has not a QR Code";
+"DEVICE_DOES_NOT_SUPPORT_ALBUM_FEATURE_MESSAGE" = "Device does not support album feature!";
+"QRCODE_TIPS_MESSAGE" = "Align QR code within frame to scan";
+"LINE_ITEM_TITLE" = "Line";
+"VIP_DESC_MESSAGE" = "\nPurchase \"VIP\" will get a better VPN line-source, become more stable and high-speed. Fully support all the apps in cellphone. We believe your will enjoy our smooth, high-speed, world wide VPN.\n";
+"VPN_CONNECTING_MESSAGE" = "Connecting";
+"THE_LINE_ONLY_FOR_VIP_USE_MESSAGE" = "The line is only for VIP use";
+"ABOUT_ITEM_TITLE" = "About CY Browser";
+"CONSTACT_US_ITEM_TITLE" = "Constact Us";
+"FEEDBACK_SUBJECT_TEXT" = "Feedback about cybrowser";
+"UNSUPPORT_MAIL_MESSAGE" = "It does not support sending e-mail or do not set a mailbox account, go to [Settings] - [e-mail, contacts, calendar] carried an account to add!";
+"COPY_ITEM_TITLE" = "Copy";
+"BUY_VIP_BUTTON_TITLE" = "Buy VIP";
+"RESTORE_PURCHASES_BUTTON_TITLE" = "Restore Purchases";
+"RESTORE_PURChASES_COMPLETED_MESSAGE" = "Restore purchases completed";
+"TOO_MANY_DEVICES_BINDING_MESSAGE" = "Binding of devices are over the limitation, this account can not log in successfully";
+"LOGIN_BUTTON_TITLE" = "LOGIN";
+"REG_BUTTON_TITLE" = "CREATE AN ACCOUNT";
+"OR_YOU_CAN_LABEL" = "or you can";
+"MOBILE_PHONE_NUM_MESSAGE" = "Mobile-phone Number";
+"PASSWORD_MESSAGE" = "Password";
+"PHONE_NUMBER_NOT_EMPTY" = "Mobile-phone number not empty";
+"PASSWORD_NOT_EMPTY" = "Password not empty";
+"SET_PASSWORD_TITLE" = "Set Password";
+"YOUR_ACCOUNT_FORMAT_STRING" = "Account: +%@ %@";
+"ENTER_PASSWORD_MESSAGE" = "Enter password";
+"ENTER_PASSWORD_AGAIN_MESSAGE" = "Enter password again";
+"SIGNUP_FAIL_MESSAGE" = "Sign up fail";
+"SIGNUP_TITLE" = "Sign up";
+"RETRIEVE_PASSWORD_TITLE" = "Retrieve Password";
+"SKIP_BUTTON_TITLE" = "Skip";
+
+"account or password failed" = "Incorrect username or password";
+"account has exists" = "account has exists";
+
+"qrcode_scan_btn_flash_nor" = "qrcode_scan_btn_flash_nor_en";
+"qrcode_scan_btn_flash_down" = "qrcode_scan_btn_flash_down_en";
+"qrcode_scan_btn_photo_nor" = "qrcode_scan_btn_photo_nor_en";
+
+"Q&A" = "Q&A";
+"Back to the homepage" = "Back to the homepage";
+"Don't remind" = "Don't remind";
+"Enter the URL" = "Enter the URL";
+"Normal" = "Normal";
+"VIP" = "VIP";
+"Choose the country" = "Choose the country";
+"Login" = "Login";
+"Register" = "Register";
+"Phone number is invalid" = "Phone number is invalid";
+"Code not empty" = "Code not empty";
+"Get Code" = "Get Code";
+"%d\" Resend" = "%d\" Resend";
+"Sharing..." = "Sharing...";
+"Share fail" = "Share fail";
+"Share success" = "Share success";
+"Invalid validation code" = "Invalid validation code";
+"Back_BUTTON_TITLE" = "back";
+"Delete_BUTTON_TITLE" = "delete";
+
+"Username_NOT_EMPTY" = "Username not empty";
+"LocalID_NOT_EMPTY" = "Local ID not empty";
+"RemoteID_NOT_EMPTY" = "Remote ID not empty";
+"Server_NOT_EMPTY" = "Server ID not empty";
+"Des_NOT_EMPTY" = "Description not empty";
+"SecrectKey_NOT_EMPTY" = "SecrectKey not empty";
+
+
+
+"Text_Title_Type" = "Type";
+"Text_Title_Des" = "Description";
+"Text_Title_Server" = "Server";
+"Text_Title_RemoteId" = "Remote ID";
+"Text_Title_LocalId" = "Local ID";
+"Text_Title_UserName" = "Username";
+"Text_Title_UserPwd" = "Password";
+"Text_Title_SecretKey" = "Secret Key";
+"Text_Title" = "title";
+"Text_Title_Required" = "Required";
+
+
+
+

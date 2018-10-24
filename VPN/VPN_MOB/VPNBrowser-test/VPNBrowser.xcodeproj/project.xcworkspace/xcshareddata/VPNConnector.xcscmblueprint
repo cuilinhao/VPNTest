@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ddbbef2e-7d24-4ea3-accf-f5ea24af4a8b++7894",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "ddbbef2e-7d24-4ea3-accf-f5ea24af4a8b++7894" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ddbbef2e-7d24-4ea3-accf-f5ea24af4a8b++7894" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "684E5691-315D-48AC-82C8-993E04037501",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ddbbef2e-7d24-4ea3-accf-f5ea24af4a8b++7894" : "VPNBrowser\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "VPNConnector",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "VPNConnector.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.180.65",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ddbbef2e-7d24-4ea3-accf-f5ea24af4a8b++7894"
+    }
+  ]
+}

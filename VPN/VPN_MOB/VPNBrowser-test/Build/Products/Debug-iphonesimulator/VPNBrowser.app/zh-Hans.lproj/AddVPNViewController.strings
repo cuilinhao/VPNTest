@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "Server"; ObjectID = "4Va-Af-rYm"; */
+"4Va-Af-rYm.text" = "服务器";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "Fhn-LU-9WS"; */
+"Fhn-LU-9WS.text" = "密码";
+
+/* Class = "UILabel"; text = "Local ID"; ObjectID = "LnQ-tZ-wtq"; */
+"LnQ-tZ-wtq.text" = "本地 ID";
+
+/* Class = "UILabel"; text = "..."; ObjectID = "R5m-Me-OL9"; */
+"R5m-Me-OL9.text" = "...";
+
+/* Class = "UITextField"; placeholder = "Required"; ObjectID = "VEQ-zn-tsd"; */
+"VEQ-zn-tsd.placeholder" = "必填";
+
+/* Class = "UITextField"; placeholder = "Required"; ObjectID = "ViF-Ab-Ki5"; */
+"ViF-Ab-Ki5.placeholder" = "必填";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "X7R-HR-4N1"; */
+"X7R-HR-4N1.text" = "类型";
+
+/* Class = "UITextField"; placeholder = "Ask Every Time"; ObjectID = "fFQ-s0-ctr"; */
+"fFQ-s0-ctr.placeholder" = "每次均询问";
+
+/* Class = "UILabel"; text = "Remote ID"; ObjectID = "gUs-jV-AzP"; */
+"gUs-jV-AzP.text" = "远程 ID";
+
+/* Class = "UITextField"; placeholder = "Required"; ObjectID = "nt2-4W-UeQ"; */
+"nt2-4W-UeQ.placeholder" = "必填";
+
+/* Class = "UITextField"; placeholder = "Required"; ObjectID = "ruc-Eu-FYI"; */
+"ruc-Eu-FYI.placeholder" = "必填";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "xvz-rC-6jn"; */
+"xvz-rC-6jn.text" = "描述";
+
+/* Class = "UILabel"; text = "Username"; ObjectID = "zCc-ht-bnB"; */
+"zCc-ht-bnB.text" = "用户名";

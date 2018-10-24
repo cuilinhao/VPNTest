@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  VPNBrowser
+
+  Created by fenghj on 16/1/26.
+  Copyright © 2016年 vimfung. All rights reserved.
+*/
+CFBundleDisplayName="畅游浏览器";
+NSCameraUsageDescription="畅游浏览器想访问您的相机";
+NSPhotoLibraryUsageDescription="畅游浏览器想访问您的相册";

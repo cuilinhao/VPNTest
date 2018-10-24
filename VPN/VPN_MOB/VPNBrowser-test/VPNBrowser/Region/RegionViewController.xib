@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegionViewController">
+            <connections>
+                <outlet property="searchBar" destination="tnO-UW-VWf" id="3k5-mr-0zp"/>
+                <outlet property="tableView" destination="ME3-8S-XJI" id="y6X-Jt-aH2"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="tnO-UW-VWf">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="MHT-Q3-Nas"/>
+                    </connections>
+                </searchBar>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ME3-8S-XJI">
+                    <rect key="frame" x="0.0" y="56" width="375" height="611"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="FWd-mW-4uO"/>
+                        <outlet property="delegate" destination="-1" id="lSy-ju-ntf"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ME3-8S-XJI" firstAttribute="top" secondItem="tnO-UW-VWf" secondAttribute="bottom" id="9qA-AM-Smk"/>
+                <constraint firstItem="tnO-UW-VWf" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="EOq-pu-KPq"/>
+                <constraint firstAttribute="trailing" secondItem="ME3-8S-XJI" secondAttribute="trailing" id="IHv-MZ-Phx"/>
+                <constraint firstItem="tnO-UW-VWf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="MIG-9t-6DD"/>
+                <constraint firstAttribute="bottom" secondItem="ME3-8S-XJI" secondAttribute="bottom" id="Voj-U8-Z9x"/>
+                <constraint firstAttribute="trailing" secondItem="tnO-UW-VWf" secondAttribute="trailing" id="btX-bR-p2o"/>
+                <constraint firstItem="ME3-8S-XJI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="qeb-Zo-THS"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="88.5"/>
+        </view>
+    </objects>
+</document>

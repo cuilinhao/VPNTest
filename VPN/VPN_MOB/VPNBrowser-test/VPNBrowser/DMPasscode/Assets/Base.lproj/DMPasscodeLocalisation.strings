@@ -1,0 +1,15 @@
+"dmpasscode_enter_new_code" = "Enter your new passcode";
+"dmpasscode_set_code" = " Enter a passcode";
+"dmpasscode_enter_old_code" = "Enter your old passcode";
+"dmpasscode_enter_code" = "Enter your passcode";
+
+"dmpasscode_enter_to_unlock" = "Enter code to unlock";
+"dmpasscode_repeat" = "Verify your new passcode";
+"dmpasscode_not_match" = "Codes did not match, please try again.";
+"dmpasscode_okay" = "Okay";
+"dmpasscode_n_left" = "%i attempts left";
+"dmpasscode_touchid_reason" = "Authenticate to access locked feature.";
+"dmpasscode_set_pass" = "Set Passcode";
+"dmpasscode_modify_pass" = "Change Passcode";
+"dmpasscode_unlock_app" = "Unlock App";
+"dmpasscode_verify_error" = "Incorrect passcode";

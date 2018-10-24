@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "6rS-lu-VuS"; */
+"6rS-lu-VuS.text" = "密码";
+
+/* Class = "UILabel"; text = "Region"; ObjectID = "IVH-oN-PgS"; */
+"IVH-oN-PgS.text" = "国家";
+
+/* Class = "UIButton"; normalTitle = "No account yet? Create account"; ObjectID = "ZbX-RV-2A5"; */
+"ZbX-RV-2A5.normalTitle" = "还没有帐号？创建帐号";
+
+/* Class = "UIButton"; normalTitle = "U.S.A+1"; ObjectID = "hFY-jJ-9cS"; */
+"hFY-jJ-9cS.normalTitle" = "U.S.A+1";
+
+/* Class = "UILabel"; text = "Phone"; ObjectID = "jNp-x9-nVK"; */
+"jNp-x9-nVK.text" = "手机号";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "xNf-db-427"; */
+"xNf-db-427.normalTitle" = "登录";
